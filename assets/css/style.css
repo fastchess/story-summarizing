@@ -91,6 +91,8 @@ header ul li a:hover{
 .sidebar ul li{
     padding: 20px;
     color: #fff;
+    transition-property: background;
+    transition: 0.2s;
 }
 .sidebar ul li a{
     padding: 20px;
@@ -518,6 +520,15 @@ header ul li a:hover{
     .banner{
         height: 100vh;
     }
+
+    .banner-profile .sub-box img{
+        width: 80%;
+    }
+    .box{
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: 25% 50%;
+    }
 }
 ::-webkit-scrollbar{
     width: 20px;
@@ -533,7 +544,7 @@ header ul li a:hover{
 }
 ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
-  }
+}
 @media (max-width: 1210px){
     .box{
         margin-top: 20px;
